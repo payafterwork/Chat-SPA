@@ -6,7 +6,8 @@ import Chat from '@/components/Chat'
 
 Vue.use(Router)
 
-export default new Router({
+export default new Router({ 
+  mode: 'history', // to remove /#/ routing
   routes: [
     {
       path: '/',
