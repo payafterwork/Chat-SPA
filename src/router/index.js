@@ -16,7 +16,17 @@ export default new Router({
       path: '/chat',
       name: 'Chat',
       component: Chat,
-      props: true
+      props: true,
+     //Route gaurding: to prevent access through URL
+      beforeEnter: (to,from, next)=>{
+        if(to.params.name){ // if name param is passed
+        	next() // go to /chat
+        }else{
+        	next({
+        		name: 'Welcome'
+        	})
+        }
+      }
     }
   ]
 })
