@@ -1,6 +1,10 @@
 # Real Time Chatroam VueJS SPA Single Page Application with Real Time Google Firebase Backend
+
+Checkout it out:  https://chatroam-ccc98.firebaseapp.com/
+
 ![alt text](https://raw.githubusercontent.com/payafterwork/Real-Time-Chatroam-VueJS-SPA-Single-Page-Application-with-Google-Firebase-Backend/master/chatroam.png)
-> Real Time Chatroam is global chatroam Single Page Application(SPA) built on VueJS on front-end and Google Firebase in the backend enabling users globally to chat without loggin in and creating account on a single chat screen.
+
+> Real Time Chatroam is global chatroam Single Page Application(SPA) built on VueJS on front-end and Google Firebase in the backend enabling users globally to chat without login in and creating account on a single chat screen.
 
 ## Build Setup
 
